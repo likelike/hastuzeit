@@ -1,11 +1,9 @@
-/* TYPOGRAPHY
+﻿/* TYPOGRAPHY
 =================================================
 Document		: Typography CSS Document hastuzeit.de
-Version			: 1.0.0
+Version			: 1.1.0
 Client			: hastuzeit
-Author			: Matthias Kretschmann
-Author Contact	: krema@jpberlin.de
-Author WebSite	: matthiaskretschmann.com
+
 */
 
 /* @group THE RESET */
@@ -18,7 +16,7 @@ Author WebSite	: matthiaskretschmann.com
 body {
 	text-align: center;
 	font: normal 82.5%/1.7em Georgia, "Times New Roman", Times, serif;
-	color: #122D45;
+	color: #000000;
 }
 
 #wrapper {
@@ -80,7 +78,7 @@ acronym {
 }
 
 blockquote {
-	color: #72808d;
+	color: #4c4c4c;
 	margin-left: 30px;
 	padding-left: 10px;
 	position: relative;
@@ -119,7 +117,7 @@ cite.big {
 	float: right;
 	margin-left: 30px;
 	margin-bottom: 20px;
-	color: #72808d;
+	color: #4c4c4c;
 	margin-top: 20px;
 	font-style: italic;
 }
@@ -285,12 +283,32 @@ td {
 
 /* @group Headings */
 
+
+
+
+
+
 @font-face {
-	font-family: 'AllerBold';
-	src: url('../fonts/Aller_Bd.eot');
-	src: url('../fonts/Aller_Bd.woff') format('woff'), url('../fonts/Aller_Bd.ttf') format('truetype'), url('../fonts/Aller_Bd.svg#Aller-Bold') format('svg');
-	font-weight: bold;
+    
+	font-family: 'linux_biolinum_oregular';
+
+   src: url('../fonts/linbiolinum_r-webfont.eot');
+    
+   src: url('../fonts/linbiolinum_r-webfont.eot?#iefix') format('embedded-opentype'),
+
+        url('../fonts/linbiolinum_r-webfont.woff') format('woff'),
+ 
+        url('../fonts/linbiolinum_r-webfont.ttf') format('truetype'),
+ 
+        url('../fonts/linbiolinum_r-webfont.svg#linux_biolinum_oregular') format('svg');
+ 
+	font-weight: normal;
+	font-style: normal;
+
+
 }
+
+
 
 h1,h2,h3,h4,h5,h6, 
 .next-links, 
@@ -311,15 +329,13 @@ a#profile-edit-link,
 .tabNavigation,
 #beliebt a, #sidebar a,
 .page-link strong,
-#tiptip_holder {
-	font-weight: bold;
-	font-family: "AllerBold", "Trebuchet MS", "Lucida Grande", Lucida, Verdana, sans-serif;
-	text-shadow: #fff 0 1px 0;
+/* #tiptip_holder */ {
+	font-weight: normal;
+	font-family: "linux_biolinum_oregular", "Lucida Sans", "Lucida Grande", Lucida, Verdana, sans-serif;
 }
 
 h1, h2 {
 	font-size: 2em;
-	margin: 10px auto;
 	line-height: 1.1em;
 	clear: both;
 }
@@ -330,14 +346,13 @@ h1, h2 {
 }
 
 h2 a, #featured h4 a, #sidebarbottom h5 a {
-	color: #122D45;
+	color: #276B99;
 }
 
 h2, h3 {
 	font-size: 1.4em;
 	margin-top: 25px;
 	margin-bottom: 15px;
-	border-bottom: 1px solid #ff6600;
 }
 
 h2 {
@@ -345,7 +360,6 @@ h2 {
 }
 
 h2.posttitle {
-	border-bottom: none;
 	font-size: 2em;
 	margin: 10px 0;
 }
@@ -407,14 +421,8 @@ h4.description {
 /* @group Links */
 
 a {
-	color: #122D45;
-	border-bottom: 1px dashed #ff6600;
-	padding-left: 4px;
-	padding-right: 4px;
+	color: #276B99;
 	background-color: #ecedee;
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
 	text-decoration: none;
 }
 
@@ -532,6 +540,7 @@ h2 a {
 	margin-bottom: 15px;
 	border: none;
 	line-height: 1.2em;
+        color: #CC3E00
 }
 
 .author-link {
@@ -692,7 +701,6 @@ a.more-link {
 #featured h4 {
 	margin: 10px 20px 0;
 	padding: 0;
-	border-bottom: 1px solid #ff6600;
 }
 
 #ausgabe h3 {
@@ -709,7 +717,7 @@ a.more-link {
 }
 
 #nextausgabe:hover {
-	color: #122d45;
+	color: #000000;
 }
 
 /* @end */
@@ -780,10 +788,9 @@ a.more-link {
 #sidebar #sidebarbottom .more .more-link.new-post {
 	padding-right: 10px;
 	padding-left: 25px;
-	color: #fff !important;
+	color: #276B99 !important;
 	text-shadow: none;
 	background: #00cf00 url(../images/Admin-Icons.png) no-repeat 265px -38px;
-	border: 1px solid #005f03;
 }
 
 /* @group Tabs */
@@ -844,7 +851,7 @@ a.more-link {
 input, textarea, label, .label {
 	font-weight: bold;
 	font-size: 1.1em;
-	font-family: "AllerBold", "Trebuchet MS", "Lucida Grande", Lucida, Verdana, sans-serif;
+	font-family: "linux_biolinum_oregular", "Lucida Sans", "Lucida Grande", Lucida, Verdana, sans-serif;
 }
 
 label, .label {
@@ -1057,7 +1064,7 @@ strong.hls {
 	display: block;
 	float: left;
 	font-weight: bold;
-	font-family: "AllerBold", "Trebuchet MS", "Lucida Grande", Lucida, Verdana, sans-serif;
+	font-family: "linux_biolinum_oregular", "Lucida Sans", "Lucida Grande", Lucida, Verdana, sans-serif;
 	font-size: 0.9em;
 	color: #b1b7c1;
 }

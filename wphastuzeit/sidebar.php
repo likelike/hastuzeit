@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * @package WordPress
  * @subpackage hastuzeit
@@ -10,57 +10,21 @@
 
 		<?php get_search_form(); ?>
 		
-		<div id="tabs" class="widget">
-					
-			<ul class="tabNavigation widgettitle">
-				<li><a class="current" rel="frisch" href="#">frisch</a></li>
-				<li><a href="#" rel="beliebt">beliebt</a></li>
-				<li><a id="linkComments" rel="latestcomments" href="#">kommentiert</a></li>
-			</ul>
-			
-			<div id="list-wrap">
-			
-				<div id="frisch" class="current">
-					<ul>
-						<?php
-							$postslist = query_posts('showposts=10&cat=-3&caller_get_posts=1');
-							
-							foreach ($postslist as $post) : 
-							setup_postdata($post);
-							$unterueber = get_post_meta($post->ID, "Unterüberschrift", true);
-						?>
-						<li>
-							<h4>
-								<a class="infopopup" href="<?php the_permalink(); ?>" title="<?php if ($unterueber != "") echo $unterueber ?> || <?php the_time('j. F Y'); ?>">	
-									<?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) {
-										the_post_thumbnail(array( 25,25 ), array( 'class' => 'alignleft'));
-									} else {
-										images('1', '25', '25', '', false);
-									} ?>
-									<?php the_title(); ?>
-								</a>
-							</h4>
-							<?php edit_post_link('Bearbeiten', '', ''); ?>
-						</li>
-					
-					<?php endforeach; ?>
-					
-					</ul>
-				</div>
-				
-				<div id="beliebt" class="popular-posts">
-					<?php if (function_exists('get_mostpopular')) get_mostpopular('range=all&order_by=views&limit=10&stats_comments=0&stats_views=0&pages=0'); ?>
-				</div>
-				
-				<div id="latestcomments">
-					<?php the_widget('WP_Widget_Recent_Comments', 'title=&number=7'); ?> 
-				</div>
-			
-			</div>
 		
-		</div>
 		
 		<ul id="sidebarbottom">
+			<li class="widget" id="twitter">
+
+				<h4 class="widgettitle">Gezwitscher</h4>
+
+
+<a class="twitter-timeline"  href="https://twitter.com/hastuzeit"  data-widget-id="474959667450220545">Tweets von @hastuzeit</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+			</li>
+
+
 			<li class="widget" id="pinnwand">
 				
 				<h4 class="widgettitle">Pinnwand</h4>
@@ -97,7 +61,7 @@
 					<li>
 					<?php if (function_exists('ec3_get_events')) {
 						ec3_get_events(
-						   5,
+						   6,
 						   '<a href="%LINK%">%TITLE% (%TIME%)</a>',
 						   '%DATE%:',
 						   'j. F'

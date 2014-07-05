@@ -46,6 +46,11 @@
 				    'Hi',
 				    'Mingalaba',
 				    'Merhaba',
+				    'Konnichi wa',
+				    'Grüß Gott',
+				    'Moin Moin',
+				    'Servus'.
+				    'Hej',
 				    );
 					$number = count($greetings)-1;
 					$randNumber = rand(0, $number);
