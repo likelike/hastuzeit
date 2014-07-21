@@ -290,17 +290,17 @@ td {
 
 @font-face {
     
-	font-family: 'linux_biolinum_oregular';
+	font-family: linux_biolinum_oregular;
 
-   src: url('../fonts/linbiolinum_r-webfont.eot');
+   src: url(../fonts/linbiolinum_r-webfont.eot);
     
-   src: url('../fonts/linbiolinum_r-webfont.eot?#iefix') format('embedded-opentype'),
+   src: url(../fonts/linbiolinum_r-webfont.eot?#iefix) format('embedded-opentype'),
 
-        url('../fonts/linbiolinum_r-webfont.woff') format('woff'),
+        url(../fonts/linbiolinum_r-webfont.woff) format('woff'),
  
-        url('../fonts/linbiolinum_r-webfont.ttf') format('truetype'),
+        url(../fonts/linbiolinum_r-webfont.ttf) format('truetype'),
  
-        url('../fonts/linbiolinum_r-webfont.svg#linux_biolinum_oregular') format('svg');
+        url(../fonts/linbiolinum_r-webfont.svg#linux_biolinum_oregular) format('svg');
  
 	font-weight: normal;
 	font-style: normal;
@@ -335,8 +335,11 @@ a#profile-edit-link,
 }
 
 h1, h2 {
-	font-size: 2em;
+	font-family: "linux_biolinum_oregular", "Lucida Sans", "Lucida Grande", Lucida, Verdana, sans-serif;
+        font-size: 2.5em;
 	line-height: 1.1em;
+        color: #276B99;
+        margin: 10px 0;
 	clear: both;
 }
 
@@ -350,7 +353,8 @@ h2 a, #featured h4 a, #sidebarbottom h5 a {
 }
 
 h2, h3 {
-	font-size: 1.4em;
+	font-family: "linux_biolinum_oregular", "Lucida Sans", "Lucida Grande", Lucida, Verdana, sans-serif;
+        font-size: 1.4em;
 	margin-top: 25px;
 	margin-bottom: 15px;
 }
@@ -360,19 +364,22 @@ h2 {
 }
 
 h2.posttitle {
-	font-size: 2em;
+	font-family: "linux_biolinum_oregular", "Lucida Sans", "Lucida Grande", Lucida, Verdana, sans-serif;
+        font-size: 2em;
 	margin: 10px 0;
 }
 
 h4 {
-	font-size: 1.2em;
-	font-weight: bold;
+	font-family: "linux_biolinum_oregular", "Lucida Sans", "Lucida Grande", Lucida, Verdana, sans-serif;
+        font-size: 1.2em;
 	margin-top: 20px;
 	margin-bottom: 10px;
+        color: #CC3E00
 }
 
 h5 {
 	font-size: 1em;
+        font-weight: bold;
 }
 
 h4.description {
@@ -381,15 +388,6 @@ h4.description {
 	min-height: 22px;
 }
 
-.post h1, .post h2 a, #featured h4 a, .pagetitle {
-	display: block;
-	margin-bottom: 20px;
-	margin-top: -5px;
-	background-image: url(../images/heading-line.png);
-	background-repeat: repeat-x;
-	background-position: left bottom;
-	padding-top: 3px;
-}
 
 #main h3 {
 	clear: both;
@@ -545,6 +543,8 @@ h2 a {
 
 .author-link {
 	font-style: italic;
+        font-family: "linux_biolinum_oregular", "Lucida Sans", "Lucida Grande", Lucida, Verdana, sans-serif;
+        
 }
 
 .meta, 
@@ -774,6 +774,7 @@ a.more-link {
 #sidebarbottom h5 {
 	margin-bottom: 0;
 	font-size: 1.1em;
+        font-family: "linux_biolinum_oregular", "Lucida Sans", "Lucida Grande", Lucida, Verdana, sans-serif;
 }
 
 #sidebar #sidebarbottom .more .more-link {
