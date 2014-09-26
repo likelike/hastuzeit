@@ -118,7 +118,6 @@ input[type=submit] {
 	-moz-box-shadow: 0 1px 3px #5e5e5e;
 	-webkit-box-shadow: 0 1px 3px #5e5e5e;
 	box-shadow: 0 1px 3px #5e5e5e;
-	text-shadow: 0 -1px 1px #222;
 	border-bottom: 1px solid #222;
 	border-top: none;
 	border-left: none;
@@ -559,7 +558,6 @@ a.post-edit-link,
 	height: 33px;
 	background-color: #ecedee;
 	border: 1px solid #ccc;
-	text-shadow: #fff 0 1px 0;
 	color: #122d45;
 }
 
@@ -642,7 +640,6 @@ ul.similar-posts {
 	color: #122D45 !important;
 	padding: 5px 10px !important;
 	border: 1px solid #ccc !important;
-	text-shadow: #fff 0 1px 0;
 }
 
 .wp-pagenavi a, .wp-pagenavi .current {
@@ -671,7 +668,6 @@ ul.similar-posts {
 	clear: both;
 	background-color: rgba(224,226,229,0.5) !important;
 	border-color: rgba(255,255,255,0.4) !important;
-	text-shadow: #99afc1 0 1px 0;
 }
 
 .next-links .alignleft a {
@@ -687,7 +683,6 @@ ul.similar-posts {
 .next-links a:hover, .page-template-page-heftarchiv-php .post h4 a:hover, #ausgabe h4 a:hover, .wp-pagenavi a:hover, .wp-pagenavi .current, #tabnav .wp-pagenavi a:hover, #sidebarbottom .more-link:hover {
 	color: #fff !important;
 	background-color: #ff6600 !important;
-	text-shadow: #666 0 1px 0 !important;
 }
 
 #bottommeta {
@@ -756,7 +751,6 @@ ul.similar-posts {
 	background: url(../images/featured-grad.png) repeat-x left bottom;
 	font-size: 0.9em;
 	margin-left: 0;
-	text-shadow: #fff 0 1px 0;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
@@ -1521,7 +1515,6 @@ a#profile-edit-link,
 	padding-right: 10px;
 	padding-left: 25px;
 	color: #fff;
-	text-shadow: none;
 	background: #00cf00 url(../images/Admin-Icons.png) no-repeat 0 -238px;
 	border: 1px solid #005f03;
 }
@@ -1559,7 +1552,6 @@ a#login-link.loggedin:active,
 a#profile-edit-link:active {
 	background-color: #122d45;
 	color: #fff;
-	text-shadow: none;
 }
 
 #admin-box li {
@@ -1679,7 +1671,6 @@ a#login-link.loggedin {
 	padding: 5px 15px;
 	z-index: 100;
 	font-size: 0.8em;
-	text-shadow: #fff 0 1px 0;
 }
 
 a#login-link {
@@ -1687,7 +1678,6 @@ a#login-link {
 	padding: 2px 10px;
 	margin-bottom: 5px;
 	color: #f7f7f7;
-	text-shadow: none;
 	margin-right: -15px;
 }
 
@@ -2244,7 +2234,6 @@ span.zoom {
 	-webkit-box-shadow: #ccc 0px 2px 5px;
 	-moz-box-shadow: #ccc 0px 2px 5px;
 	-khtml-box-shadow: #ccc 0px 2px 5px;
-	text-shadow: #fff 0 1px 0;
 }
 
 * html #TB_window {
@@ -2553,7 +2542,6 @@ table.ec3_schedule td.ec3_end {
 #ec3_popup table {
 	background: #e0e2e5 url(../images/button-overlay.png) repeat-x left top !important;
 	border: 1px solid #ccc !important;
-	text-shadow: #fff 0 1px 0;
 	color: #122d45 !important;
 	font-weight: bold;
 }
