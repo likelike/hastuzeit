@@ -25,7 +25,6 @@ body {
 	font-weight: normal;
 	font-style: normal;
 	background: #f7f7f7 url(../images/content-back.png) repeat left top;
-	text-shadow: #fff 0 1px 0;
 }
 
 #content  {
@@ -551,7 +550,6 @@ h2 a {
 .meta a, 
 .meta .category-link a {
 	color: #a8aeb6;
-	text-shadow: #fff 0 1px 0;
 	-webkit-transition: color 0.2s linear;
 }
 
@@ -590,7 +588,6 @@ h2 a {
 	color: #122D45;
 	background-color: #e0e2e5;
 	padding: 1px 5px;
-	text-shadow: #fff 0 1px 0;
 	border: 1px solid #ccc;
 	margin-right: 20px;
 	-webkit-transition: background 0.2s linear;
@@ -601,7 +598,6 @@ h2 a {
 .similar-posts li a:hover {
 	color: #fff !important;
 	background-color: #ff6600 !important;
-	text-shadow: #666 0 1px 0 !important;
 }
 
 .category-link a:active, input[type=submit]:active, .comment-link a:active, .next-links a:active,
@@ -641,7 +637,6 @@ a.more-link {
 .heftbadge {
 	line-height: 1em;
 	color: #fff !important;
-	text-shadow: #444 0 1px 0 !important;
 	opacity: 0.8;
 	-moz-opacity: 0.8;
 	-webkit-opacity: 0.8;
@@ -754,7 +749,6 @@ a.more-link {
 
 #sidebar {
 	font-size: 0.9em;
-	text-shadow: #fff 0 1px 0;
 }
 
 #sidebar li {
